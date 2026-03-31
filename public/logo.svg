@@ -1,0 +1,62 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Glow -->
+  <circle cx="100" cy="100" r="95" fill="url(#outerGlow)" opacity="0.3"/>
+  
+  <!-- Main Badge Circle -->
+  <circle cx="100" cy="100" r="85" fill="#1A1A1A" stroke="#FFD700" stroke-width="4"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#FFD700" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Flames Background -->
+  <g opacity="0.6">
+    <path d="M40 140C40 140 50 100 70 80C90 60 110 80 110 80C110 80 130 40 150 70C170 100 160 140 160 140C160 140 140 170 100 170C60 170 40 140 40 140Z" fill="url(#flameGradient)">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Burger Icon (Left) -->
+  <g transform="translate(60, 90) scale(0.8)">
+    <path d="M5 15C5 8 12 5 25 5C38 5 45 8 45 15V18H5V15Z" fill="#E67E22"/> <!-- Top Bun -->
+    <path d="M3 18H47V21H3V18Z" fill="#F1C40F"/> <!-- Cheese -->
+    <rect x="5" y="21" width="40" height="6" rx="2" fill="#7E5109"/> <!-- Patty -->
+    <path d="M5 27H45V30C45 35 38 38 25 38C12 38 5 35 5 30V27Z" fill="#E67E22"/> <!-- Bottom Bun -->
+    <circle cx="15" cy="10" r="1" fill="#FDFEFE" opacity="0.6"/>
+    <circle cx="25" cy="8" r="1" fill="#FDFEFE" opacity="0.6"/>
+    <circle cx="35" cy="11" r="1" fill="#FDFEFE" opacity="0.6"/>
+  </g>
+
+  <!-- Pizza Slice (Right) -->
+  <g transform="translate(100, 90) scale(0.8)">
+    <path d="M25 5L45 35H5L25 5Z" fill="#F1C40F" stroke="#D35400" stroke-width="2"/>
+    <path d="M5 35C5 35 15 38 25 38C35 38 45 35 45 35" fill="none" stroke="#D35400" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="25" cy="18" r="3" fill="#C0392B"/>
+    <circle cx="18" cy="28" r="2.5" fill="#C0392B"/>
+    <circle cx="32" cy="28" r="2.5" fill="#C0392B"/>
+  </g>
+
+  <!-- Main Text -->
+  <defs>
+    <path id="textPath" d="M40,100 A60,60 0 0,1 160,100" />
+  </defs>
+  <text font-family="Arial Black, sans-serif" font-size="18" font-weight="900" fill="#FFD700">
+    <textPath href="#textPath" startOffset="50%" text-anchor="middle">JAND NAJJAR</textPath>
+  </text>
+  
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFD700" text-anchor="middle" letter-spacing="2">FAST FOOD</text>
+
+  <!-- Central Star -->
+  <path d="M100 70L103 76L110 77L105 82L106 89L100 86L94 89L95 82L90 77L97 76L100 70Z" fill="#FFD700">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+  </path>
+
+  <defs>
+    <radialGradient id="outerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="flameGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E67E22" />
+      <stop offset="50%" stop-color="#F1C40F" />
+      <stop offset="100%" stop-color="#E74C3C" />
+    </linearGradient>
+  </defs>
+</svg>
