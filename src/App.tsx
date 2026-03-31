@@ -92,7 +92,7 @@ const Logo = ({ isScrolled = false, isFooter = false }: { isScrolled?: boolean; 
       >
         <div className="w-10 h-10 sm:w-14 sm:h-14 bg-[#e53935] rounded-lg sm:rounded-xl flex items-center justify-center text-white shadow-lg overflow-hidden border-2 border-[#ffcc00]">
           <img 
-            src="/src/logo.svg" 
+            src="/logo.svg" 
             alt="Jandnajjar Logo" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
