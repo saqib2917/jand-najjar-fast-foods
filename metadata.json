@@ -1,0 +1,5 @@
+{
+  "name": "Jand Najjar Fast Food",
+  "description": "The official website for Jand Najjar Fast Food. Order delicious burgers, pizzas, and more online via WhatsApp. Best fast food in Jand Najjar with fast delivery and authentic taste.",
+  "requestFramePermissions": ["geolocation"]
+}

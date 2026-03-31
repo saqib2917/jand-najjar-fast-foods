@@ -1,0 +1,16 @@
+{
+  "name": "Jand Najjar Fast Food",
+  "short_name": "Jand Najjar",
+  "description": "Best burgers, pizzas, and fast food in Jand Najjar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e53935",
+  "icons": [
+    {
+      "src": "/src/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
