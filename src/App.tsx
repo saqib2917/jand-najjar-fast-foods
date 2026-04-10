@@ -1552,7 +1552,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-[#111] dark:text-white group-hover:text-[#ffcc00] transition-colors">Contact</h4>
-                  <p className="text-gray-500 dark:text-gray-400">Shams Mehmood: 0336-8136019</p>
+                  <p className="text-gray-500 dark:text-gray-400">Raja Qasim: 0336-8136019</p>
                 </div>
               </a>
               
@@ -1562,7 +1562,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-[#111] dark:text-white">Opening Hours</h4>
-                  <p className="text-gray-500 dark:text-gray-400">Open Daily: 11:00 AM - 12:00 AM</p>
+                  <p className="text-gray-500 dark:text-gray-400">Open Daily: 04:00 PM - 11:00 PM</p>
                 </div>
               </div>
             </div>
@@ -1603,6 +1603,9 @@ const Footer = () => {
         </div>
         <p className="text-gray-500 max-w-md mx-auto mb-8">
           The most delicious fast food in Jand Najjar. Quality you can trust, taste you will remember.
+        </p>
+        <p className="text-sm text-gray-600 mb-8">
+          Developed by Saqib Mahmood
         </p>
         <div className="flex justify-center gap-6 mb-8">
           <a 
